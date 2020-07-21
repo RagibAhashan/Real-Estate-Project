@@ -7,6 +7,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
+def isLastPage(currentPage):
+    x = currentPage
+    current = x[:(x.find('/')-1)]
+    last = x[(x.find('/'))+2 : len(x)]
+    return current == last
+
 PATH = os.getcwd() + '/chromedriver'
 
 driver = webdriver.Chrome(PATH)
@@ -27,7 +33,34 @@ try:
     )
     element.click()
 
-    time.sleep(1)
+    time.sleep(2)
+
+    element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "filter-search"))
+    )
+    element.click()
+    #PropertyTypeSection-accordion
+    time.sleep(2)
+
+    element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "PropertyTypeSection-accordion"))
+    )
+    element.click()
+
+    select_boxes = ['Single-family home', 'Condo', 'Loft / Studio', 'Plex', 'Intergenerational']
+    check_boxes = driver.find_elements_by_class_name("custom-control-label")
+    for box in check_boxes:
+        if box.text in select_boxes:
+            box.click()
+    
+    time.sleep(2)
+
+    element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "property-count"))
+    )
+    element.click()
+
+    time.sleep(3)
 
     all_info = driver.find_elements_by_class_name("shell")
     category = driver.find_elements_by_class_name("category")
@@ -42,7 +75,7 @@ try:
     while True:
         time.sleep(2)
         element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "goLast"))
+            EC.presence_of_element_located((By.CLASS_NAME, "next"))
         )
         element.click()
         time.sleep(2)
@@ -55,8 +88,13 @@ try:
             line = 'Price: {}, Category {}, address: {}'.format(price[i].text, category[i].text, address[i].text)
             n += 1
             print('#', n, line, '\n\n')
+        time.sleep(1)
+        currentPage = driver.find_elements_by_class_name("pager-current")
+        if isLastPage(currentPage.text):
+            print('Finished!')
+            break
 
 except:
     print('something went wrong..')
 finally:
-    print('sss')
+    print('DONE!')
