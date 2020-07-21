@@ -50,7 +50,7 @@ try:
     element.click()
 
     select_boxes = ['Single-family home', 'Condo', 'Loft / Studio', 'Plex', 'Intergenerational']
-    select_boxes = ['Intergenerational']
+
     check_boxes = driver.find_elements_by_class_name("custom-control-label")
     time.sleep(1)
     for box in check_boxes:
