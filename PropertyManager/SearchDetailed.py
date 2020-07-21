@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import json
+from bs4 import BeautifulSoup
 
 
 PATH = os.getcwd() + '/chromedriver'
@@ -58,49 +59,45 @@ try:
     element.click()
 
     time.sleep(3)
+    element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "ButtonViewSummary"))
+    )
+    element.click()
+    time.sleep(2)
     n = 0
 
-    while True:
-        time.sleep(2)
-        all_info = driver.find_elements_by_class_name("shell")
-        category = driver.find_elements_by_class_name("category")
-        address = driver.find_elements_by_class_name("address")
-        price = driver.find_elements_by_class_name("price")
-        pages = driver.find_elements_by_class_name("pager-current")
+    # category = driver.find_elements_by_class_name("category")
+    # address  = driver.find_elements_by_class_name("address")
 
-        x = pages[0].text
-        for i in range(len(price)):
-            line = ', Price: {}, Category {}, address: {}'.format(price[i].text, category[i].text, address[i].text)
-            line.replace('\n', ' ')
-            n += 1
-            print('#', n, line, '\n\n')
-            
-            data.append({
-                'price': price[i].text,
-                'category': category[i].text,
-                'address': address[i].text
-            })
-        pages = [int(s) for s in x.split() if s.isdigit()]
-        currentPage, lastPage = pages[0], pages[1]
+    title_address    = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "address"))
+    )
+    price    = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "BuyPrice"))
+    )
+    pages    = driver.find_elements_by_class_name("pager-current")
 
-        time.sleep(1)
-        time_left = round(((lastPage-currentPage)*5/60), 2)
-        seconds = int((time_left%1)*60)
-        if seconds/10 < 1:
-            seconds = '0' + str(seconds)
-        mins =  int(time_left)
-        time_left = str(mins) + ':' + str(seconds)
+    # description    = WebDriverWait(driver, 10).until(
+    #     EC.presence_of_element_located((By.CLASS_NAME, "row teaser")) 
+    # )
+    # description2    = WebDriverWait(driver, 10).until(
+    #     EC.presence_of_element_located((By.CLASS_NAME, "row")) 
+    # )
+    time.sleep(1)
+    title, address = title_address.text.split('\n')[0], title_address.text.split('\n')[1]
 
-        print(x, 'pages completed. ETA: ', time_left, 'mins')
-        time.sleep(1)
-        if currentPage == lastPage:
-            break
-
-        element = WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "next"))
-        )
-        element.click()
-        time.sleep(1)
+    print(title)
+    print(address)
+    print(price.text)
+    print(pages[0].text)
+    # print(driver.page_source)
+    f = open("index.html", "a")
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    divs = soup.findAll('div', {"class" : "row"})
+    f.write(divs)
+    f.close()
+    # print(description)
+    # print(description2)
 
 except:
     print('something went wrong..')
@@ -108,4 +105,4 @@ finally:
     with open('data.txt', 'w') as outfile:
         json.dump(data, outfile)
     print('DONE!')
-    driver.quit()
+    # driver.quit()
