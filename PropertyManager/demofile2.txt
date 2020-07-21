@@ -1,0 +1,166 @@
+#1 , Price: $1,190,000, Category House for sale, address: 12630, Rue Joron Montréal (Pierrefonds-Roxboro) Neighbourhood Pierrefonds/Central East
+#2 , Price: $1,678,700, Category House for sale, address: 6540, 32e Avenue Montréal (Rosemont/La Petite-Patrie)
+Neighbourhood New Rosemont#3 , Price: $1,668,000, Category House for sale, address: 2303 - 2305, Rue du Souvenir
+Montréal (Ville-Marie)
+Neighbourhood Central West#4 , Price: $7,500,000, Category House for sale, address: 3250, Avenue Cedar
+Westmount#5 , Price: $729,000, Category House for sale, address: 4400, Rue Sir-George-Simpson
+Montréal (Lachine)
+Neighbourhood West#6 , Price: $1,449,000, Category House for sale, address: 3045, Rue Cherrier
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#7 , Price: $1,229,000, Category House for sale, address: 242, Rue Jourdain
+Dollard-Des Ormeaux
+Neighbourhood Central#8 , Price: $719,500, Category House for sale, address: 18, Rue Bégin
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#9 , Price: $2,198,000, Category House for sale, address: 1625 - 1627, Rue Plessis
+Montréal (Ville-Marie)
+Neighbourhood Village#10 , Price: $1,195,000, Category House for sale, address: 3601, Rue De Bullion
+Montréal (Le Plateau-Mont-Royal)
+Neighbourhood Le Plateau-Mont-Royal#11 , Price: $9,888,888, Category House for sale, address: 2695, Chemin Dutour
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#12 , Price: $839,000, Category House for sale, address: 1684Z - 1688Z, Rue de la Visitation
+Montréal (Ville-Marie)
+Neighbourhood Village#13 , Price: $679,000, Category House for sale, address: 71, Avenue St. Louis
+Beaconsfield
+Neighbourhood Beaurepaire (South West)#14 , Price: $1,195,000, Category House for sale, address: 29, Rue Perrault
+Sainte-Anne-de-Bellevue
+Neighbourhood South#15 , Price: $1,499,000, Category House for sale, address: 11838, Rue Frigon
+Montréal (Ahuntsic-Cartierville)
+Neighbourhood Nouveau Bordeaux#16 , Price: $719,000, Category House for sale, address: 10785, Rue Séguin
+Montréal (Ahuntsic-Cartierville)
+Neighbourhood Ahuntsic East#17 , Price: $899,000, Category House for sale, address: 8969, Avenue Adolphe-Rho
+Montréal (Rivière-des-Prairies/Pointe-aux-Trembles)
+Neighbourhood Rivière-des-Prairies#18 , Price: $429,000, Category House for sale, address: 15601, Rue Oakwood
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central West#19 , Price: $2,500,000, Category House for sale, address: 2010Z - 2012Z, Rue Saint-Hubert
+Montréal (Ville-Marie)
+Neighbourhood Central#20 , Price: $634,900, Category House for sale, address: 158, Rue Chapleau
+Dollard-Des Ormeaux
+Neighbourhood West#21 , Price: $549,000, Category House for sale, address: 9351, Avenue Justine-Lacoste
+Montréal (Anjou)#22 , Price: $549,000, Category House for sale, address: 15705, Rue Gaucher
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central West#23 , Price: $1,995,000, Category House for sale, address: 2295 - 2295A, Chemin du Bord-du-Lac
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#24 , Price: $12,500,000, Category House for sale, address: 724, Avenue Upper-Belmont
+Westmount#25 , Price: $740,000, Category House for sale, address: 115, Avenue Alston
+Pointe-Claire
+Neighbourhood Central West#26 , Price: $1,390,000, Category House for sale, address: 2345, Chemin du Bord-du-Lac
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#27 , Price: $759,000, Category House for sale, address: 834, 51e Avenue
+Montréal (Lachine)
+Neighbourhood West#28 , Price: $1,378,000, Category House for sale, address: 125, Chemin du Bord-du-Lac-Lakeshore
+Pointe-Claire
+Neighbourhood South East#29 , Price: $1,495,000, Category House for sale, address: 21187, Rue Euclide-Lavigne
+Sainte-Anne-de-Bellevue
+Neighbourhood North#1 , Price: $839,000, Category House for sale, address: 1684Z - 1688Z, Rue de la Visitation
+Montréal (Ville-Marie)
+Neighbourhood Village#2 , Price: $679,000, Category House for sale, address: 71, Avenue St. Louis
+Beaconsfield
+Neighbourhood Beaurepaire (South West)#3 , Price: $1,668,000, Category House for sale, address: 2303 - 2305, Rue du Souvenir
+Montréal (Ville-Marie)
+Neighbourhood Central West#4 , Price: $729,000, Category House for sale, address: 4400, Rue Sir-George-Simpson
+Montréal (Lachine)
+Neighbourhood West#5 , Price: $1,499,000, Category House for sale, address: 11838, Rue Frigon
+Montréal (Ahuntsic-Cartierville)
+Neighbourhood Nouveau Bordeaux#6 , Price: $1,195,000, Category House for sale, address: 29, Rue Perrault
+Sainte-Anne-de-Bellevue
+Neighbourhood South#7 , Price: $2,198,000, Category House for sale, address: 1625 - 1627, Rue Plessis
+Montréal (Ville-Marie)
+Neighbourhood Village#8 , Price: $9,888,888, Category House for sale, address: 2695, Chemin Dutour
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#9 , Price: $1,229,000, Category House for sale, address: 242, Rue Jourdain
+Dollard-Des Ormeaux
+Neighbourhood Central#10 , Price: $549,000, Category House for sale, address: 15705, Rue Gaucher
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central West#11 , Price: $429,000, Category House for sale, address: 15601, Rue Oakwood
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central West#12 , Price: $899,000, Category House for sale, address: 8969, Avenue Adolphe-Rho
+Montréal (Rivière-des-Prairies/Pointe-aux-Trembles)
+Neighbourhood Rivière-des-Prairies#13 , Price: $759,000, Category House for sale, address: 834, 51e Avenue
+Montréal (Lachine)
+Neighbourhood West#14 , Price: $1,190,000, Category House for sale, address: 12630, Rue Joron
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central East#15 , Price: $2,500,000, Category House for sale, address: 2010Z - 2012Z, Rue Saint-Hubert
+Montréal (Ville-Marie)
+Neighbourhood Central#16 , Price: $740,000, Category House for sale, address: 115, Avenue Alston
+Pointe-Claire
+Neighbourhood Central West#17 , Price: $719,500, Category House for sale, address: 18, Rue Bégin
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#18 , Price: $1,995,000, Category House for sale, address: 2295 - 2295A, Chemin du Bord-du-Lac
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#19 , Price: $7,500,000, Category House for sale, address: 3250, Avenue Cedar
+Westmount#20 , Price: $1,449,000, Category House for sale, address: 3045, Rue Cherrier
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#21 , Price: $1,378,000, Category House for sale, address: 125, Chemin du Bord-du-Lac-Lakeshore
+Pointe-Claire
+Neighbourhood South East#22 , Price: $1,195,000, Category House for sale, address: 3601, Rue De Bullion
+Montréal (Le Plateau-Mont-Royal)
+Neighbourhood Le Plateau-Mont-Royal#23 , Price: $634,900, Category House for sale, address: 158, Rue Chapleau
+Dollard-Des Ormeaux
+Neighbourhood West#24 , Price: $1,390,000, Category House for sale, address: 2345, Chemin du Bord-du-Lac
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#25 , Price: $1,678,700, Category House for sale, address: 6540, 32e Avenue
+Montréal (Rosemont/La Petite-Patrie)
+Neighbourhood New Rosemont#26 , Price: $549,000, Category House for sale, address: 9351, Avenue Justine-Lacoste
+Montréal (Anjou)#27 , Price: $12,500,000, Category House for sale, address: 724, Avenue Upper-Belmont
+Westmount#28 , Price: $719,000, Category House for sale, address: 10785, Rue Séguin
+Montréal (Ahuntsic-Cartierville)
+Neighbourhood Ahuntsic East#29 , Price: $1,495,000, Category House for sale, address: 21187, Rue Euclide-Lavigne
+Sainte-Anne-de-Bellevue
+Neighbourhood North#1 , Price: $839,000, Category House for sale, address: 1684Z - 1688Z, Rue de la Visitation
+Montréal (Ville-Marie)
+Neighbourhood Village#1 , Price: $839,000, Category House for sale, address: 1684Z - 1688Z, Rue de la Visitation
+Montréal (Ville-Marie)
+Neighbourhood Village#2 , Price: $679,000, Category House for sale, address: 71, Avenue St. Louis
+Beaconsfield
+Neighbourhood Beaurepaire (South West)#3 , Price: $1,668,000, Category House for sale, address: 2303 - 2305, Rue du Souvenir
+Montréal (Ville-Marie)
+Neighbourhood Central West#4 , Price: $729,000, Category House for sale, address: 4400, Rue Sir-George-Simpson
+Montréal (Lachine)
+Neighbourhood West#5 , Price: $1,499,000, Category House for sale, address: 11838, Rue Frigon
+Montréal (Ahuntsic-Cartierville)
+Neighbourhood Nouveau Bordeaux#6 , Price: $1,195,000, Category House for sale, address: 29, Rue Perrault
+Sainte-Anne-de-Bellevue
+Neighbourhood South#7 , Price: $2,198,000, Category House for sale, address: 1625 - 1627, Rue Plessis
+Montréal (Ville-Marie)
+Neighbourhood Village#8 , Price: $9,888,888, Category House for sale, address: 2695, Chemin Dutour
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#9 , Price: $1,229,000, Category House for sale, address: 242, Rue Jourdain
+Dollard-Des Ormeaux
+Neighbourhood Central#10 , Price: $549,000, Category House for sale, address: 15705, Rue Gaucher
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central West#11 , Price: $429,000, Category House for sale, address: 15601, Rue Oakwood
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central West#12 , Price: $899,000, Category House for sale, address: 8969, Avenue Adolphe-Rho
+Montréal (Rivière-des-Prairies/Pointe-aux-Trembles)
+Neighbourhood Rivière-des-Prairies#13 , Price: $759,000, Category House for sale, address: 834, 51e Avenue
+Montréal (Lachine)
+Neighbourhood West#14 , Price: $1,190,000, Category House for sale, address: 12630, Rue Joron
+Montréal (Pierrefonds-Roxboro)
+Neighbourhood Pierrefonds/Central East#15 , Price: $2,500,000, Category House for sale, address: 2010Z - 2012Z, Rue Saint-Hubert
+Montréal (Ville-Marie)
+Neighbourhood Central#16 , Price: $740,000, Category House for sale, address: 115, Avenue Alston
+Pointe-Claire
+Neighbourhood Central West#17 , Price: $719,500, Category House for sale, address: 18, Rue Bégin
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#18 , Price: $1,995,000, Category House for sale, address: 2295 - 2295A, Chemin du Bord-du-Lac
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#19 , Price: $7,500,000, Category House for sale, address: 3250, Avenue Cedar
+Westmount#20 , Price: $1,449,000, Category House for sale, address: 3045, Rue Cherrier
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#21 , Price: $1,378,000, Category House for sale, address: 125, Chemin du Bord-du-Lac-Lakeshore
+Pointe-Claire
+Neighbourhood South East#22 , Price: $1,195,000, Category House for sale, address: 3601, Rue De Bullion
+Montréal (Le Plateau-Mont-Royal)
+Neighbourhood Le Plateau-Mont-Royal#23 , Price: $634,900, Category House for sale, address: 158, Rue Chapleau
+Dollard-Des Ormeaux
+Neighbourhood West#24 , Price: $1,390,000, Category House for sale, address: 2345, Chemin du Bord-du-Lac
+Montréal (L'Île-Bizard/Sainte-Geneviève)
+Neighbourhood L'Île-Bizard#25 , Price: $1,678,700, Category House for sale, address: 6540, 32e Avenue
+Montréal (Rosemont/La Petite-Patrie)
+Neighbourhood New Rosemont#26 , Price: $549,000, Category House for sale, address: 9351, Avenue Justine-Lacoste
+Montréal (Anjou)#27 , Price: $12,500,000, Category House for sale, address: 724, Avenue Upper-Belmont
+Westmount#28 , Price: $719,000, Category House for sale, address: 10785, Rue Séguin
+Montréal (Ahuntsic-Cartierville)
+Neighbourhood Ahuntsic East#29 , Price: $1,495,000, Category House for sale, address: 21187, Rue Euclide-Lavigne
+Sainte-Anne-de-Bellevue
+Neighbourhood North
