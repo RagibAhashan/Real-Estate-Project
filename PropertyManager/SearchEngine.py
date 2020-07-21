@@ -87,12 +87,14 @@ try:
                 'category': category[i].text,
                 'address': address[i].text
             })
-        currentPage = [int(s) for s in x.split() if s.isdigit()]
+        pages = [int(s) for s in x.split() if s.isdigit()]
+        currentPage, lastPage = pages[0], pages[1]
+
         time.sleep(1)
 
-        print(x, 'pages completed. ETA: ', round((currentPage[1]*5/60), 0), 'mins')
+        print(x, 'pages completed. ETA: ', round(((lastPage-currentPage)*5/60), 0), 'mins')
         time.sleep(1)
-        if currentPage[0] == currentPage[1]:
+        if currentPage == lastPage:
             break
 
         element = WebDriverWait(driver, 10).until(
