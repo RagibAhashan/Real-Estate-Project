@@ -20,8 +20,8 @@ driver = webdriver.Chrome(PATH)
 
 driver.get('https://www.centris.ca/en/properties~for-sale?view=Thumbnail')
 
+data = []
 try:
-    data = []
     input_area = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CLASS_NAME, "select2-search__field"))
     )
@@ -68,13 +68,13 @@ try:
     n = 0
 
     while True:
-        time.sleep(1)
+        time.sleep(2)
         all_info = driver.find_elements_by_class_name("shell")
         category = driver.find_elements_by_class_name("category")
         address = driver.find_elements_by_class_name("address")
         price = driver.find_elements_by_class_name("price")
         pages = driver.find_elements_by_class_name("pager-current")
-        time.sleep(1)
+
         x = pages[0].text
         for i in range(len(price)):
             line = ', Price: {}, Category {}, address: {}'.format(price[i].text, category[i].text, address[i].text)
@@ -91,25 +91,28 @@ try:
         currentPage, lastPage = pages[0], pages[1]
 
         time.sleep(1)
+        time_left = round(((lastPage-currentPage)*5/60), 2)
+        seconds = int((time_left%1)*60)
+        if seconds/10 < 1:
+            seconds = '0' + str(seconds)
+        mins =  int(time_left)
+        time_left = str(mins) + ':' + str(seconds)
 
-        print(x, 'pages completed. ETA: ', round(((lastPage-currentPage)*5/60), 0), 'mins')
+        print(x, 'pages completed. ETA: ', time_left, 'mins')
         time.sleep(1)
         if currentPage == lastPage:
             break
 
-        element = WebDriverWait(driver, 10).until(
+        element = WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.CLASS_NAME, "next"))
         )
         element.click()
         time.sleep(1)
 
-    with open('data.txt', 'w') as outfile:
-        json.dump(data, outfile)
-
-
-
 except:
     print('something went wrong..')
 finally:
+    with open('data.txt', 'w') as outfile:
+        json.dump(data, outfile)
     print('DONE!')
     driver.quit()
