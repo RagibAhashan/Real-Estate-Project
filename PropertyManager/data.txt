@@ -1,1 +1,0 @@
-[{"Property": "Condo for sale", "Address": "2123, Rue Augustin-Cantin, apt. 102, Montr\u00e9al (Le Sud-Ouest), Neighbourhood Pointe-Saint-Charles", "Price": "$299,000", "Condominium type": "Divided", "Net area": "52 sqft", "Year built": "2010"}]
