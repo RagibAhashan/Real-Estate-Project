@@ -14,7 +14,7 @@ import datetime
 
 def search():
     data = []
-    PATH = os.getcwd() + '/geckodriver'
+    PATH = os.getcwd() + '/chromedriver'
     driver = webdriver.Chrome(PATH)
     driver.get('https://www.centris.ca/en/properties~for-sale?view=Thumbnail')
     data = []
