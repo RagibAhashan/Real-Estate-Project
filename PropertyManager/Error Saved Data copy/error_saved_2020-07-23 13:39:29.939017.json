@@ -1,0 +1,59 @@
+[
+    {
+      "Property": "Duplex for sale",
+      "Address": "5436 - 5438, Rue Lafond, Montréal (Rosemont/La Petite-Patrie), Neighbourhood Old Rosemont",
+      "Price": "$574,900",
+      "Use of property": "Residential only",
+      "Building style": "Semi-detached",
+      "Year built": "1927",
+      "Building area (at ground level)": "787 sqft",
+      "Lot area": "2,000 sqft",
+      "Parking (total)": "Driveway (1)",
+      "Number of units": "Residential (2)",
+      "Residential units": "2 x 5 ½",
+      "Main unit": "5 rooms, 3 bedrooms, 1 bathroom",
+      "Potential gross revenue": "$24,600"
+    },
+    {
+      "Property": "Duplex for sale",
+      "Address": "793 - 795, 10e Avenue, Montréal (Lachine), Neighbourhood East",
+      "Price": "$550,000",
+      "Use of property": "Residential only",
+      "Building style": "Detached",
+      "Year built": "1965",
+      "Building area (at ground level)": "1,337 sqft",
+      "Lot area": "2,113 sqft",
+      "Number of units": "Residential (2)",
+      "Residential units": "1 x 5 ½, 1 x 6 ½",
+      "Main unit": "6 rooms, 3 bedrooms, 1 bathroom",
+      "Potential gross revenue": "$19,800",
+      "Additional features": "Basement 6 feet or +"
+    },
+    {
+      "Property": "Condo for sale",
+      "Address": "6300, Rue Jarry Est, apt. PH802, Montréal (Saint-Léonard)",
+      "Price": "$799,900",
+      "Condominium type": "Divided",
+      "Net area": "2,046 sqft",
+      "Year built": "2007",
+      "Parking (total)": "Garage (2)",
+      "Fireplace/Stove": "Fireplace - Other",
+      "Additional features": "Adapted for reduced mobility, Elevator"
+    },
+    {
+      "Property": "Duplex for sale",
+      "Address": "933 - 935A, Rue Tittley, Montréal (LaSalle)",
+      "Price": "$849,000",
+      "Use of property": "Residential only",
+      "Building style": "Semi-detached",
+      "Year built": "1975",
+      "Lot area": "3,326 sqft",
+      "Parking (total)": "Driveway (2), Garage (2)",
+      "Fireplace/Stove": "Wood fireplace",
+      "Number of units": "Residential (3)",
+      "Residential units": "1 x 3 ½, 1 x 5 ½, 1 x 6 ½",
+      "Main unit": "6 rooms, 3 bedrooms, 2 bathrooms",
+      "Potential gross revenue": "$42,000",
+      "Additional features": "Basement 6 feet or +"
+    }
+  ]

@@ -1,0 +1,103 @@
+[
+    {
+      "Property": "Condo for sale",
+      "Address": "820, 5e Avenue, apt. 6, Montréal (Lachine), Neighbourhood East",
+      "Price": "$268,000",
+      "Condominium type": "Divided",
+      "Net area": "995 sqft",
+      "Year built": "2006",
+      "Parking (total)": "Driveway (1)"
+    },
+    {
+      "Property": "Loft / Studio for sale",
+      "Address": "4821, boulevard Saint-Laurent, apt. 204A, Montréal (Le Plateau-Mont-Royal), Neighbourhood Mile-End",
+      "Price": "$279,000",
+      "Condominium type": "Divided",
+      "Net area": "446 sqft",
+      "Year built": "2005",
+      "Parking (total)": "Garage (1)",
+      "Parking (excluded from the price)": "Garage (1 - $55,000)",
+      "Additional features": "Elevator"
+    },
+    {
+      "Property": "House for sale",
+      "Address": "1977, Rue Pigeon, Montréal (LaSalle)",
+      "Price": "$689,000",
+      "Building style": "Two or more storey, Attached",
+      "Year built": "2011",
+      "Parking (total)": "Garage (2)",
+      "Additional features": "Basement 6 feet or +"
+    },
+    {
+      "Property": "Condo for sale",
+      "Address": "2117, Rue Tupper, apt. 502, Montréal (Ville-Marie), Neighbourhood Central West",
+      "Price": "$399,900",
+      "Condominium type": "Divided",
+      "Net area": "545 sqft",
+      "Year built": "2017",
+      "Pool": "Heated, Inground",
+      "Additional features": "Adapted for reduced mobility, Elevator"
+    },
+    {
+      "Property": "Condo for sale",
+      "Address": "53, 2e Avenue, Montréal (Verdun/Île-des-Soeurs), Neighbourhood Verdun",
+      "Price": "$535,000",
+      "Condominium type": "Undivided",
+      "Gross area": "1,000 sqft",
+      "Year built": "1925",
+      "Parking (excluded from the price)": "Driveway (1 - $20,000)"
+    },
+    {
+      "Property": "Duplex for sale",
+      "Address": "8432 - 8434, Avenue De Gaspé, Montréal (Villeray/Saint-Michel/Parc-Extension), Neighbourhood Villeray",
+      "Price": "$899,000",
+      "Use of property": "Residential only",
+      "Building style": "Attached",
+      "Year built": "1932",
+      "Building area (at ground level)": "1,000 sqft",
+      "Lot area": "2,000 sqft",
+      "Parking (total)": "Driveway (1)",
+      "Number of units": "Residential (2)",
+      "Residential units": "1 x 6 ½, 1 x 8 ½",
+      "Main unit": "8 rooms, 3 bedrooms, 2 bathrooms",
+      "Potential gross revenue": "$34,320",
+      "Additional features": "Basement 6 feet or +"
+    },
+    {
+      "Property": "Loft / Studio for sale",
+      "Address": "1, Avenue Viger Ouest, apt. 310, Montréal (Ville-Marie), Neighbourhood Central",
+      "Price": "$315,346",
+      "Condominium type": "Divided",
+      "Gross area": "494 sqft",
+      "Year built": "To be built, New"
+    },
+    {
+      "Property": "House for sale",
+      "Address": "4703, Rue Bénêche, Montréal (Pierrefonds-Roxboro), Neighbourhood Pierrefonds/West",
+      "Price": "$599,000",
+      "Building style": "Two or more storey, Detached",
+      "Year built": "1990",
+      "Lot area": "4,961 sqft",
+      "Parking (total)": "Driveway (2), Garage (2)",
+      "Pool": "Above-ground",
+      "Additional features": "Basement 6 feet or +"
+    },
+    {
+      "Property": "Condo for sale",
+      "Address": "5689, Rue Hadley, apt. 6, Montréal (Le Sud-Ouest), Neighbourhood Saint-Paul/Émard",
+      "Price": "$565,000",
+      "Condominium type": "Divided",
+      "Gross area": "1,228 sqft",
+      "Year built": "2019",
+      "Additional features": "Basement 6 feet or +"
+    },
+    {
+      "Property": "House for sale",
+      "Address": "4817, Rue Cedar Crescent, Montréal (Côte-des-Neiges/Notre-Dame-de-Grâce), Neighbourhood Côte-des-Neiges",
+      "Price": "$2,550,000",
+      "Building style": "Two or more storey, Detached",
+      "Year built": "1936",
+      "Lot area": "10,189 sqft",
+      "Parking (total)": "Driveway (2), Garage (2)"
+    }
+  ]
